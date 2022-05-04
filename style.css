@@ -5,23 +5,27 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 0;
-    background:white
+    background:url("https://i.pinimg.com/originals/a8/0c/07/a80c07903c2065a4ef1a59c963daec70.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
+
 img {
     position: relative;
     width: 100%;
     height: 100%;
+    border-radius: 5px;
 }
 header .container {
-    opacity: .4;
+    opacity: .6;
     height: inherit;
 }
 header {
-    opacity: .8;
+    height: 233px;  
     margin-top: 0px;
-    height: 200px;
     position: relative;
     width: 100%;
+    background-color: white;
 }
 ul {
     width: 100%;
@@ -36,6 +40,7 @@ header ul {
 }
 header ul li{
     font-size: 25px;
+    margin-left: 50px
 }
 header ul li:hover {
     opacity: 1;
@@ -50,39 +55,36 @@ ul li {
 #about {
     height: 800px;
     width: (100%-10px);
-    background: lightblue;
+    background: lightsteelblue;
     margin: 10px;
+    border-radius: 5px;
 }
 #about #imgLeft {
     width: 25%;
     float: left;
-}
-#about #text {
-    width: 45%;
-    display: inline-block;
 }
 #about #imgRight {
     width: 25%;
     float: right;
 }
 
+#about #text {
+    width: 45%;
+    display: inline-block;
+}
+
 #imgLeft .container, #imgRight .container {
     height: 600px;
     width: auto;
     opacity: .8;
+    border-radius: 5px;
 }
 #hobby {
     text-align: left;
     margin-left: 150px;
+    
 }
-footer {
-    position: absolute;
-    background: orange;
-    width: 100%;
-}
-footer ul {
-    margin-bottom: 200px;
-}
+
 /*
 #powerlifting .text {
     width: 75%;
@@ -92,6 +94,7 @@ footer ul {
 #powerlifting, #gameDesign, #music {
     margin-bottom: 200px;
     width: 65%;
+    
 }
 #powerlifting .container {
     height: 20%;
@@ -120,14 +123,21 @@ footer ul {
 }
 
 #textCont {
-    width: 100%;
+    width: 75%;
+
 }
-#imgCol {
-    width: 50%;
-    float: left;
-}
+
 #imgCol .container{
-    width: 50%;
     width: 200px;
     float: right;
+
+}
+footer {
+    position: absolute;
+    background: lightblue;
+    width: 100%;
+    padding: 20px;
+}
+footer ul {
+    margin-bottom: 200px;
 }
