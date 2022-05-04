@@ -2,10 +2,11 @@ const form = document.querySelector("form")
 
 form.addEventListener("submit",sendEmail)
 
+const message = "eee"
 
 function sendEmail() {
     Email.send({
-        SecureToken: "7d689560-e795-49fe-b035-116f60568b4d",
+        SecureToken: "0b50be03-dda9-44f2-a5d7-d2d53cc3cfe8",
         To : "alextaylor515@gmail.com",
         From : document.getElementById("email").value,
         Subject : "Contact form inquiry",
